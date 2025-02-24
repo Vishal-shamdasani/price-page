@@ -1,0 +1,85 @@
+:root{
+    --text-color: black;
+    --border-color:black;
+    --card-color:white;
+    --button-color:orange;
+}
+
+.price_bord{
+    background-color: aqua;
+    margin: auto;
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price_card{
+    padding: 5px;
+    margin: 20px;
+    background-color:var(--card-color);
+    height: 400px;
+    width: 200px;
+    border-radius: 20px;
+    transition: 1s;
+    color:var(--text-color);
+}
+.price_card:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.price_card_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid var(--border-color);
+}
+.plan_type{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.price{
+    margin: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+.price_button{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--button-color);
+
+}
+.price_button:hover{
+    filter: brightness(1.2);
+}
+
+.list_items{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.info_list{
+    margin-top: 30px;
+}
+
+#card2{
+    --card-color:blue;
+    --border-color:white;
+    --text-color:white;
+    --button-color:aqua;
+}
+#card3{
+    --card-color:red;
+    --border-color:white;
+    --text-color:white;
+    --button-color:yellow;
+}
